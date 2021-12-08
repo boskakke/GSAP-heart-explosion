@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "parcel --open",
     "clean": "rm -rf dist/*",
-    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./ --dist-dir docs",
     "build": "yarn clean && yarn build:parcel"
   },
   "license": "MIT",
