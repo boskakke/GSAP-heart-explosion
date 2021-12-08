@@ -1,0 +1,19 @@
+{
+  "name": "circles",
+  "version": "1.0.0",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build": "yarn clean && yarn build:parcel"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "gsap": "^3.8.0"
+  }
+}

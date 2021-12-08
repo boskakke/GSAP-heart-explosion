@@ -1,0 +1,48 @@
+body,
+html {
+	height: 100%;
+	background: #111;
+}
+.container {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo-box {
+	width: 400px;
+	position: relative;
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+.costume-logo {
+	fill: #fff;
+}
+
+.heart {
+	fill: pink;
+}
+
+.heart-svg {
+	fill: var(--fill, orange);
+	width: 20px;
+}
+.heart-icon {
+	position: absolute;
+	left: var(--x, 50%);
+	top: var(--y, 50%);
+	pointer-events: none;
+	transform: scale(0.5);
+}
+.koordinater {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #666;
+	font-size: 12px;
+	padding: 5px;
+}
