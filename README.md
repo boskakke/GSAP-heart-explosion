@@ -1,5 +1,5 @@
-# "Climate Catastrophe Pack" GSAP intro
+# Costume logo 
 
-Stumpled upon the [Cards Agains Humanity website](https://www.climatecatastrophepack.com/) and wanted to se if I could re-create the intro using GSAP to improve my GSAP skills. 
+A logo test I made for the Danish fashion magazine "Costume" using GSAP
 
-Demo: https://codepen.io/ekkaks/pen/yLzJBNm
+Demo: https://codepen.io/ekkaks/pen/WNbmbPJ
